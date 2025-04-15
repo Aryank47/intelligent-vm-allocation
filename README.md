@@ -1,5 +1,11 @@
 # Intelligent VM allocation
 
+## Contributors
+
+- **Aryan Kumar** (M23CSA510)
+- **Ayush Mishra** (M22AIE251)
+- **Harsh Parashar** (M22AIE210)
+- **Prateek Singhal** (M22AIE215)
 
 
 ## Resource Optimization Simulation
@@ -38,6 +44,27 @@ This project simulates resource optimization for a cloud environment using a cus
 
 
 ## Project Structure
+
+    intelligent-vm-allocation/
+    ├── .gitignore
+    ├── README.md
+    ├── code-flow-diagram.png
+    ├── main.py
+    ├── outputs/
+    ├── ProjectReport.pdf
+    ├── requirements.txt
+    ├── R&D/     # Research Code notebooks
+    └── src/
+        ├── allocation.py
+        ├── devices.py
+        ├── metrics.py
+        ├── optimizer.py
+        ├── plotting.py
+        ├── predictor.py
+        ├── simulation.py
+        └── training.py
+
+
    - `main.py` 
    - The main simulation script.
    - `requirements.txt` - Contains a list of required packages not included in the default Python installation.
