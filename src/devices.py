@@ -100,8 +100,6 @@ def create_synthetic_vms(num_vms=20, history_length=1000, scale_factor=50):
 
 
 # Physical Machines generation
-
-
 def create_multiple_pms(num_vms):
     num_pms = max(1, int(np.ceil(num_vms / 1.67)))
     pm_list = []
