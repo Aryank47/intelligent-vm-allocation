@@ -10,7 +10,8 @@ This project simulates resource optimization for a cloud environment using a cus
    - **Conda** (Anaconda or Miniconda must be installed)
    - The environment will use **Python 3.11.6**
 
-## Setup Instructions\n\nRun the following commands in your terminal from the project's root directory:
+## Setup Instructions
+### Run the following commands in your terminal from the project's root directory:
 1. **Create the Conda Virtual Environment**
     ```bash
    conda create --prefix ./venv python=3.11.6
