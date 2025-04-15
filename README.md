@@ -21,9 +21,9 @@ This project simulates resource optimization for a cloud environment using a cus
     ```
 5. **Install Dependencies**
     Ensure that the `requirements.txt` file is in your project directory, then install the required packages:
-        ```bash
+    ```bash
     pip install -r requirements.txt
-   ```
+    ```
 7. **Run the Simulation**
     Execute the main simulation script by running:
       ```bash
