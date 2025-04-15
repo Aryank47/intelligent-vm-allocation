@@ -12,18 +12,28 @@ This project simulates resource optimization for a cloud environment using a cus
 
 ## Setup Instructions\n\nRun the following commands in your terminal from the project's root directory:
 1. **Create the Conda Virtual Environment**
-    ```bash conda create --prefix ./venv python=3.11.6```
-2. **Activate the Virtual Environment**
-    ```bash conda activate ./venv```
-3. **Install Dependencies**
+    ```bash
+   conda create --prefix ./venv python=3.11.6
+    ```
+3. **Activate the Virtual Environment**
+    ```bash
+    conda activate ./venv
+    ```
+5. **Install Dependencies**
     Ensure that the `requirements.txt` file is in your project directory, then install the required packages:
-        ```bash pip install -r requirements.txt```
-4. **Run the Simulation**
+        ```bash
+    pip install -r requirements.txt
+   ```
+7. **Run the Simulation**
     Execute the main simulation script by running:
-      ```bash python main.py```
-5. **Deactivate the Environment (Optional)**
+      ```bash
+    python main.py
+      ```
+9. **Deactivate the Environment (Optional)**
     When you are finished, deactivate the virtual environment:
-      ```bash conda deactivate```
+      ```bash
+    conda deactivate
+      ```
 
 
 ## Project Structure
