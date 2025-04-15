@@ -7,8 +7,8 @@
 This project simulates resource optimization for a cloud environment using a custom simulation framework. Follow the instructions below to create a Conda virtual environment, install dependencies, and run the simulation.
 
 ## Prerequisites
-    - **Conda** (Anaconda or Miniconda must be installed)
-    - The environment will use **Python 3.11.6**
+   - **Conda** (Anaconda or Miniconda must be installed)
+   - The environment will use **Python 3.11.6**
 
 ## Setup Instructions\n\nRun the following commands in your terminal from the project's root directory:
 1. **Create the Conda Virtual Environment**
