@@ -2,9 +2,7 @@ import numpy as np
 import random
 
 
-# ------------------------------
 # Define Classes for PM and VM
-# ------------------------------
 class VirtualMachine:
     def __init__(
         self, id, cpu_demand, ram_demand, job_length, history, history_mem=None
@@ -62,9 +60,7 @@ class PhysicalMachine:
         )  # noqa
 
 
-#########################################
 # Synthetic Data Generation (with turbulence)
-#########################################
 def create_synthetic_vms(num_vms=20, history_length=1000, scale_factor=50):
     """
     Create synthetic VMs with noisy and turbulent CPU usage history.
@@ -103,9 +99,9 @@ def create_synthetic_vms(num_vms=20, history_length=1000, scale_factor=50):
     return vms
 
 
-#########################################
 # Physical Machines generation
-#########################################
+
+
 def create_multiple_pms(num_vms):
     num_pms = max(1, int(np.ceil(num_vms / 1.67)))
     pm_list = []
