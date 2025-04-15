@@ -1,8 +1,8 @@
-# intelligent-vm-allocation
+# Intelligent VM allocation
 
 
 
-# Resource Optimization Simulation
+## Resource Optimization Simulation
 
 This project simulates resource optimization for a cloud environment using a custom simulation framework. Follow the instructions below to create a Conda virtual environment, install dependencies, and run the simulation.
 
@@ -12,18 +12,18 @@ This project simulates resource optimization for a cloud environment using a cus
 
 ## Setup Instructions\n\nRun the following commands in your terminal from the project's root directory:
 1. **Create the Conda Virtual Environment**
-    ```conda create --prefix ./venv python=3.11.6```
+    ```bash conda create --prefix ./venv python=3.11.6```
 2. **Activate the Virtual Environment**
-    ```conda activate ./venv```
+    ```bash conda activate ./venv```
 3. **Install Dependencies**
     Ensure that the `requirements.txt` file is in your project directory, then install the required packages:
-        ```pip install -r requirements.txt```
+        ```bash pip install -r requirements.txt```
 4. **Run the Simulation**
     Execute the main simulation script by running:
-      ```python main.py```
+      ```bash python main.py```
 5. **Deactivate the Environment (Optional)**
     When you are finished, deactivate the virtual environment:
-      ```conda deactivate```
+      ```bash conda deactivate```
 
 
 ## Project Structure
